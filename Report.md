@@ -23,6 +23,8 @@ WEIGHT_DECAY = 0        # L2 weight decay
 ### Results:
 Below are the results and a plot of rewards per episode is included to illustrate that the agents get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).
 
+![Alt text](/Multi_Agent_results.png?raw=true "Plot of Results per Episode")
+
 
 ### Future Ideas:
 Here I trained each agent seperately where each one observed it's own environment and state. Whereas I would like to train the agents by passing both states to the agents.
